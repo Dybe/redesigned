@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,height = device-height, initial-scale=1.0">
+    <title> Kentish Town City Farm</title>
+</head>
+
+<body class="content">
+    <header>
+        <div class="heading">
+            <h1>Kentish Town City Farm</h1>
+            <img src="instagram.png">
+            <img src="twitter.png">
+            <img src="facebook.png">
+        </div>
+
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a >About Us</a>
+        <a >Bookings</a>
+        <a >What's On</a>
+        <a >Riding</a>
+        <a >Visits</a>
+        <a >Volunteer</a>
+        <a >Supporters</a>
+        <a >Hire</a>
+        <a href="javascript:void(0);" class="icon" onclick="navBar()">
+            <i class="fa fa-align-justify" style="font-size:30px; color:#f4bc1c; background-color:white;"></i>
+        </a>
+    </div>
+
+    
+
+    <div class="open">
+        <h2 style="color: #007cba; font-weight: bolder; padding-bottom: 10px;"> Open for Bookings </h2>
+    </div>
+    <div class="donkeys">
+        <img src="donkeys.jpg">
+        <p>See Dora and Nora on a farm visit!</p>
+    </div>
+    <div class="infotext">
+        <p>
+            <strong> Activity visit: </strong> Free garden drop-in sessions for all ages are available during Farm
+            Visits on Wednesday and
+            Saturday.
+        </p>
+        <p>
+            <strong> Rides: </strong>There are currently no weekend pony or donkey rides due to Covid-19 security
+            measures. Please check
+            in with us in the New Year for an update.
+        </p>
+    </div>
+    <div class="tiles">
+        <div class="tile">
+            <h3> What's On </h3>
+            <img src="whatson.jpg">
+        </div>
+        <div class="tile">
+            <h3> Schools </h3>
+            <img src="schools.jpg">
+        </div>
+        <div class="tile">
+            <h3> Volunteers </h3>
+            <img src="volunteers.jpg">
+        </div>
+        <div class="tile">
+            <h3> Corporate </h3>
+            <img src="corporate.jpg">
+        </div>
+    </div>
+    <div class="boxes">
+        <div class="visit" style="border-radius: 25px;
+        border: 1px solid #007cba;
+        text-align: center;
+        width: 220px;
+        height: 250px;">
+            <div>
+                <h3 style="font-weight: bolder; color: forestgreen;"> Visit Us!</h3>
+            </div>
+            <p> Open 9am-5pm all week </p>
+            <p> 1 Cressfield Close</p>
+            <p>London</p>
+            <p>NW5 4BN</p>
+            <p>Phone:020 7916 5421</p>
+
+        </div>
+
+        <div class="map" style="border-radius: 25px;
+        border: 1px solid#007cba;
+        text-align: center;
+        width: 220px;
+        height: 250px;">
+            <div>
+                <h3 style="color: forestgreen; font-weight:bolder"> We are Here</h3>
+            </div>
+            <div class="mapouter">
+                <div class="gmap_canvas"><iframe width="122" height="146" id="gmap_canvas"
+                        src="https://maps.google.com/maps?q=Kentish%20Town%20citu%20farm&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://www.embedgooglemap.net"></a></div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: center;
+                        margin: 0 auto;
+                        height: 146px;
+                        width: 122px;
+                    }
+
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 146px;
+                        width: 122px;
+                    }
+                </style>
+            </div>
+
+        </div>
+        <div class="journey" style="border-radius: 25px;
+        border: 1px solid #007cba;
+        display: block;
+    text-align: center;
+        width: 220px;
+        height: 250px;">
+            <div style="margin-bottom: 70px;">
+                <h3 style="color:forestgreen; font-weight:bolder;"> Journey Planner </h3>
+            </div>
+            <form style="display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;" action="/action_page.php">
+                <input type="text" id="fname" name="fname" placeholder="Zipcode, Adress or Station "
+                    style="border-color: #007cba; border-radius: 10px;margin-bottom: 10px;"><br>
+                <input type="submit" value="Leave Now"
+                    style="margin-left: 50px; color:white; background-color: #007cba;font-weight: bold;">
+            </form>
+
+        </div>
+
+        <div class="donate" style="border-radius: 25px;
+        border: 1px solid #007cba;
+        text-align: center;
+        width: 220px;
+        height: 250px;">
+            <div>
+                <h3 style="color: forestgreen; font-weight: bolder;"> Donate </h3>
+            </div>
+
+            <button class = "button" style="background-color: #f4bc1c;
+                font-weight: bolder;
+                color:white;
+                height:20%;
+                width: 50%;
+                border-radius: 10px;
+                
+                margin-top: 50px; "> Donate </button>
+
+        </div>
+    </div>
+    <div class="footer">
+
+        <p style="padding-top: 10px;">Kentish Town City Farm is a Registered Charity no 294797 & Company Limited by
+            Guarantee, Registered Cardiff, no 202063</p>
+        <p> Copyright © 2013. All Rights Reserved </p>
+        <a href="https://ktcityfarm.org.uk/volunteers/privacy-policy" style="color:black"> Privacy Policy</a>
+        <p></p>
+    </div>
+    <script>
+        function navBar() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+
+</html>
